@@ -1,0 +1,34 @@
+{
+  "name": "next-typescript-tailwind",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "find:unused": "next-unused"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "next": "10.0.9",
+    "next-seo": "^4.22.0",
+    "preact": "^10.5.13",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/jit": "^0.1.7",
+    "@types/classnames": "^2.2.11",
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "autoprefixer": "^10.2.5",
+    "next-unused": "^0.0.6",
+    "postcss": "^8.2.8",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.4",
+    "typescript": "^4.2.3"
+  }
+}
