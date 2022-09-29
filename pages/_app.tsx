@@ -1,6 +1,6 @@
-import "@assets/fonts.scss"
-import "@assets/main.scss"
-import "@assets/chrome-bug.scss"
+import "assets/fonts.scss"
+import "assets/main.scss"
+import "assets/chrome-bug.scss"
 
 import { useEffect } from "react"
 

@@ -1,6 +1,7 @@
 module.exports = {
   plugins: [
-    "@tailwindcss/jit",
+    "tailwindcss/nesting",
+    "tailwindcss",
     [
       "postcss-preset-env",
       {
