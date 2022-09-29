@@ -1,7 +1,11 @@
 import { FC } from "react"
-import { Header } from "@components/common"
+import { Header } from "components/common"
 
-const Layout: FC = ({ children }) => (
+interface Props {
+  children: React.ReactNode
+}
+
+const Layout: FC<Props> = ({ children }) => (
   <>
     <Header />
     <main>{children}</main>

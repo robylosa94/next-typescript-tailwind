@@ -1,6 +1,6 @@
 {
   "name": "next-typescript-tailwind",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,26 +9,27 @@
     "find:unused": "next-unused"
   },
   "dependencies": {
-    "classnames": "^2.2.6",
-    "next": "10.0.9",
-    "next-seo": "^4.22.0",
-    "preact": "^10.5.13",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "sass": "^1.32.8"
+    "classnames": "^2.3.2",
+    "next": "12.3.1",
+    "next-seo": "^5.5.0",
+    "postcss": "^8.4.16",
+    "preact": "^10.11.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.0",
-    "@tailwindcss/jit": "^0.1.7",
-    "@types/classnames": "^2.2.11",
-    "@types/node": "^14.14.35",
-    "@types/react": "^17.0.3",
-    "autoprefixer": "^10.2.5",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/jit": "^0.1.18",
+    "@types/classnames": "^2.3.0",
+    "@types/node": "^18.7.23",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.12",
     "next-unused": "^0.0.6",
-    "postcss": "^8.2.8",
-    "postcss-preset-env": "^6.7.0",
-    "prettier": "^2.2.1",
-    "tailwindcss": "^2.0.4",
-    "typescript": "^4.2.3"
+    "postcss-preset-env": "^7.8.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
   }
 }

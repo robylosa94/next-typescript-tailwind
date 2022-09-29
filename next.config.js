@@ -1,8 +1,7 @@
-module.exports = {
-  trailingSlash: false,
-  images: {
-    deviceSizes: [] //sizes of images
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
   webpack: (config, { dev, isServer }) => {
     // Replace React with Preact only in client production build
     if (!dev && !isServer) {
@@ -16,3 +15,5 @@ module.exports = {
     return config
   },
 }
+
+module.exports = nextConfig

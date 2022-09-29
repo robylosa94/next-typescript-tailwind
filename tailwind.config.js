@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'max-xl': {'max': '1279px'},
-        'max-lg': {'max': '1023px'},
-        'max-md': {'max': '767px'},
+        "max-xl": { max: "1279px" },
+        "max-lg": { max: "1023px" },
+        "max-md": { max: "767px" },
       },
     },
   },
