@@ -1,15 +1,14 @@
-import { FC } from "react"
-import { Header } from "components/common"
+import { Header } from "@/components/common"
 
 interface Props {
   children: React.ReactNode
 }
 
-const Layout: FC<Props> = ({ children }) => (
-  <>
-    <Header />
-    <main>{children}</main>
-  </>
-)
-
-export default Layout
+export default function Layout({ children }: Props) {
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+    </>
+  )
+}

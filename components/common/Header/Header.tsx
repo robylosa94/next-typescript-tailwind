@@ -1,6 +1,5 @@
-import { FC } from "react"
-import s from "./Header.module.scss"
+import s from "./Header.module.css"
 
-const Header: FC = () => <header className={s.root}>Header</header>
-
-export default Header
+export default function Header() {
+  return <header className={s.root}>Header</header>
+}

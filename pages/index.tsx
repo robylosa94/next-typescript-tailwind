@@ -1,10 +1,9 @@
-import { Layout } from "components/common"
-import type { NextPage } from "next"
+import { Layout } from "@/components/common"
 
-const Home: NextPage = () => {
+function Home() {
   return (
     <Layout>
-      <h1 className="text-center text-3xl mt-16">Benvenuti in Nextjs + Typescript + Tailwindcss</h1>
+      <span>Home</span>
     </Layout>
   )
 }
